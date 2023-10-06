@@ -1,3 +1,5 @@
+import Animation from "./components/Animation/Animation";
+import Footer from "./components/Footer";
 import Links from "./components/Links";
 import PhotoProfile from "./components/PhotoProfile";
 
@@ -10,6 +12,7 @@ const App = () => {
     justify-center
     h-screen
     ">
+      <Animation/>
       <PhotoProfile/>
       <div>
         <h1 className="
@@ -22,9 +25,11 @@ const App = () => {
         <p className="
         text-gray-500
         text-center
+        pb-10
         ">Web Developer</p>
       </div>
       <Links />
+      <Footer />
     </div>
   );
 }
