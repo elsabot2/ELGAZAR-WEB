@@ -10,7 +10,7 @@ const App = () => {
     flex-col
     items-center
     justify-center
-    h-screen
+    min-h-screen
     ">
       <Animation/>
       <PhotoProfile/>
