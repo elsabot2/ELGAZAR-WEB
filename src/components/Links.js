@@ -47,6 +47,8 @@ const Links = () => {
             mb-4
             hover:scale-105
             transition
+            duration-400
+            ease-in-out
             left-0
           "
         >

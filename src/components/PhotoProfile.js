@@ -8,6 +8,10 @@ const PhotoProfile = () => {
             rounded-full
             border-4
             border-gray-400
+            hover:scale-110
+            transition
+            duration-300
+            ease-in-out
             '/>
         </div>
     );
