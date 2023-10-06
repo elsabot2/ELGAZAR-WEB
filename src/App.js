@@ -1,20 +1,17 @@
-import './App.css';
-import Button from './components/Button';
-import Navbar from './components/Navbar';
+import PhotoProfile from "./components/PhotoProfile";
 
-function App() {
-  const navText = 'Navbar';
-  const navHeader = "Ammar";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar navText={navText} navHeader={navHeader} />
-        
-        <p>
-          Hallo Brodiee
-        </p>
-        <Button />
-      </header>
+    <div className="
+    flex
+    flex-col
+    items-center
+    justify-center
+    min-h-screen
+    bg-gradient-to-r
+    from-blue-400
+    ">
+      <PhotoProfile/>
     </div>
   );
 }
