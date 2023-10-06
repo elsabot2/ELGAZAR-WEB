@@ -1,3 +1,4 @@
+import Links from "./components/Links";
 import PhotoProfile from "./components/PhotoProfile";
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
     flex-col
     items-center
     justify-center
-    min-h-screen
+    h-screen
     ">
       <PhotoProfile/>
       <div>
@@ -23,6 +24,7 @@ const App = () => {
         text-center
         ">Web Developer</p>
       </div>
+      <Links />
     </div>
   );
 }
