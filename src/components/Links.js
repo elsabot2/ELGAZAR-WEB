@@ -14,6 +14,11 @@ const Links = () => {
       title: "My LinkedIn",
     },
     {
+      img: "/img/instagram.png",
+      link: "https://instagram.com/ahmadammrm",
+      title: "My Instagram",
+    },
+    {
       img: "/img/25231.png",
       link: "https://github.com/ahmadammarm",
       title: "My Github",
@@ -52,7 +57,7 @@ const Links = () => {
             left-0
           "
         >
-          <img src={link.img} alt="Link Image" className="w-6 mr-5 inline-block" /> {/* Ubah margin di sini */}
+          <img src={link.img} alt="Link Image" className="w-6 mr-4 inline-block" /> {/* Ubah margin di sini */}
           {link.title}
         </a>
       ))}
