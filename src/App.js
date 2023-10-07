@@ -26,7 +26,7 @@ const App = () => {
         text-gray-500
         text-center
         pb-10
-        ">Web Developer</p>
+        ">Junior Web Developer</p>
       </div>
       <Links />
       <Footer />
