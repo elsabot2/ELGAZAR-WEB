@@ -31,12 +31,6 @@ const Loader = () => {
             d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2.645-2.645a9.963 9.963 0 012.37-2.37M17.355 2.645a9.963 9.963 0 012.37 2.37"
           ></path>
         </svg>
-        <h3 className="text-center text-white pt-4
-        sm:text-3xl
-        md:text-4xl
-        ">
-          Loading...
-        </h3>
       </div>
     </div>
   );
