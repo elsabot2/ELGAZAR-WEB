@@ -44,8 +44,8 @@ const Links = () => {
             items-center
             justify-center
             bg-gradient-to-r
-            from-gray-800
-            to-gray-900
+            from-teal-800
+            to-teal-900
             border-2
             p-2
             w-80
