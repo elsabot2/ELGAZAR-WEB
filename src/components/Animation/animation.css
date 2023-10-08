@@ -5,7 +5,7 @@
 	width: 50px;
 	z-index: -1;
 	background-color: #18191f;
-	box-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
+	box-shadow: 0 0 50px rgb(20 184 166), 0 0 100px rgb(20 184 166), 0 0 150px rgb(20 184 166), 0 0 200px rgb(20 184 166);
 	animation: animate 10s linear infinite;
 }
 .wrapper span:nth-child(1) {
