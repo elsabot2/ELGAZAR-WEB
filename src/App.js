@@ -16,11 +16,14 @@ const App = () => {
       <PhotoProfile/>
       <div>
         <h1 className="
+        sm:text-3xl 
+        md:text-4xl
         text-3xl
         font-bold
         text-center
         text-gray-300
-        pt-6
+        pt-6 
+        sm:pt-6
         ">Ahmad Ammar Musyaffa</h1>
         <p className="
         text-gray-500
