@@ -7,6 +7,15 @@ import Loader from "./components/Loader";
 
 const App = () => {
   const [loading, setIsLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 6000);
+    return () => clearTimeout(timer);
+  }, []);
+
+
+
   const photoProfile = [
     {
       name: "Ahmad Ammar Musyaffa",
@@ -14,13 +23,6 @@ const App = () => {
       alt: "Ahmad Ammar Musyaffa",
     }
   ]
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 6000);
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <div
