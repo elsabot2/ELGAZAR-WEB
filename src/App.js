@@ -6,11 +6,12 @@ import PhotoProfile from "./components/PhotoProfile";
 import Loader from "./components/Loader";
 
 const App = () => {
+
   const [loading, setIsLoading] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 6000);
+    }, 4000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -21,6 +22,7 @@ const App = () => {
       name: "Ahmad Ammar Musyaffa",
       imageUrl: "/img/a.png",
       alt: "Ahmad Ammar Musyaffa",
+      role: "Junior Web Developer",
     }
   ]
 
@@ -66,7 +68,7 @@ const App = () => {
           pb-10
           "
             >
-              Junior Web Developer
+              {photoProfile[0].role}
             </p>
           </div>
           <Links />
