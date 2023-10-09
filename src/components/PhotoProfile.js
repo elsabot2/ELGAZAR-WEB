@@ -1,9 +1,11 @@
 import React from 'react';
 
-const PhotoProfile = () => {
+const PhotoProfile = (
+    {name, imageUrl, alt}
+) => {
     return (
         <div className='photo-profile'>
-            <img src="/img/a.png" alt="Profile"  className='
+            <img name={name} src={imageUrl} alt={alt}  className='
             w-32
             rounded-full
             border-4

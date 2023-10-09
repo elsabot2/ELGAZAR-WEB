@@ -7,6 +7,13 @@ import Loader from "./components/Loader";
 
 const App = () => {
   const [loading, setIsLoading] = useState(true);
+  const photoProfile = [
+    {
+      name: "Ahmad Ammar Musyaffa",
+      imageUrl: "/img/a.png",
+      alt: "Ahmad Ammar Musyaffa",
+    }
+  ]
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -30,7 +37,11 @@ const App = () => {
       ) : (
         <>
           <Animation />
-          <PhotoProfile />
+          <PhotoProfile
+            name={photoProfile[0].name}
+            imageUrl={photoProfile[0].imageUrl}
+            alt={photoProfile[0].alt}
+          />
           <div>
             <h1
               className="
@@ -44,7 +55,7 @@ const App = () => {
           sm:pt-6
           "
             >
-              Ahmad Ammar Musyaffa
+              {photoProfile[0].name}
             </h1>
             <p
               className="
