@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     // Membuat Footer
     <div className="flex justify-center items-center h-10 bg-transparent text-white fixed-bottom w-full" style={{ position: 'absolute', bottom: '0' }}>
-      <p>© 2023 <a href='https://ahmadammarm.github.io/ammar' target='_blank' 
+      <p className='cursor-default'>© 2023 <a href='https://ahmadammarm.github.io/ammar' target='_blank' 
       className='
       hover:text-teal-600 
       transition

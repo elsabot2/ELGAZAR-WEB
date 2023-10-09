@@ -57,6 +57,7 @@ const App = () => {
           text-gray-300
           pt-6 
           sm:pt-6
+          cursor-default
           "
             >
               {photoProfile[0].name}
@@ -66,6 +67,7 @@ const App = () => {
           text-gray-500
           text-center
           pb-10
+          cursor-default
           "
             >
               {photoProfile[0].role}
