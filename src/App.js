@@ -20,7 +20,7 @@ const App = () => {
   const photoProfile = [
     {
       name: "Ahmad Ammar Musyaffa",
-      imageUrl: "/img/a.png",
+      imageUrl: "/img/foto ammar2.jpg",
       alt: "Ahmad Ammar Musyaffa",
       role: "Junior Web Developer",
     }

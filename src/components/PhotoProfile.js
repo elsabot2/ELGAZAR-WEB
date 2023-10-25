@@ -7,6 +7,7 @@ const PhotoProfile = (
         <div className='photo-profile'>
             <img name={name} src={imageUrl} alt={alt} role={role}  className='
             w-32
+            h-32
             rounded-full
             border-4
             border-gray-400
