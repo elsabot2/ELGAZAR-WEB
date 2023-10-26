@@ -5,7 +5,7 @@ const Links = () => {
   const links = [
     {
       img: "/img/a.png",
-      link: "https://ahmadammarm.github.io/ammar",
+      link: "https://ammar-porto.vercel.app",
       title: "My Website",
     },
     {
