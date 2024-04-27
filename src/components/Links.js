@@ -6,22 +6,27 @@ const Links = () => {
     {
       img: "/img/a.png",
       link: "https://profile-elgazar5.vercel.app/",
-      title: "My Website",
+      title: "موقعي الرسمي",
     },
     {
       img: "/img/174857.png",
       link: "https://wa.me/+201098906252",
-      title: "My LinkedIn",
+      title: "الواتساب",
+    },
+    {
+      img: "/img/yot.png",
+      link: "https://youtube.com/@ABDALLAH_MOHAMED",
+      title: "قناه اليوتيوب",
     },
     {
       img: "/img/instagram.png",
       link: "https://www.instagram.com/z_sq.0?igsh=Z3hpemR3czB4MWgy",
-      title: "My Instagram",
+      title: "الانستجرام",
     },
     {
       img: "/img/25231.png",
       link: "https://github.com/Sjshskdhd",
-      title: "My Github",
+      title: "جيتهاب",
     },
   ]
   return (
