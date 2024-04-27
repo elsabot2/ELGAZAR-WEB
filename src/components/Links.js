@@ -5,22 +5,22 @@ const Links = () => {
   const links = [
     {
       img: "/img/a.png",
-      link: "https://ammar-porto.vercel.app",
+      link: "https://profile-elgazar5.vercel.app/",
       title: "My Website",
     },
     {
       img: "/img/174857.png",
-      link: "https://www.linkedin.com/in/ahmadammarmusyaffa/",
+      link: "https://wa.me/+201098906252",
       title: "My LinkedIn",
     },
     {
       img: "/img/instagram.png",
-      link: "https://instagram.com/ahmadammrm",
+      link: "https://www.instagram.com/z_sq.0?igsh=Z3hpemR3czB4MWgy",
       title: "My Instagram",
     },
     {
       img: "/img/25231.png",
-      link: "https://github.com/ahmadammarm",
+      link: "https://github.com/Sjshskdhd",
       title: "My Github",
     },
   ]
