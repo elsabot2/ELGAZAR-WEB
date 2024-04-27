@@ -12,7 +12,7 @@ const Footer = () => {
       duration-300
       ease-in-out
       '>
-        ammar
+        elgazar
         </a>
         .
       </p>
